@@ -1,0 +1,64 @@
+.main_container {
+  margin: 0.2rem 2rem;
+}
+.table-header {
+  height: 40px;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button_container {
+  display: flex;
+}
+
+.travel_title {
+  color: #000;
+  font-size: 26px;
+  font-weight: 500;
+}
+.filter-sorting {
+  display: flex;
+}
+.dropdown {
+  margin-right: 1.6rem;
+}
+.mat-stroked-button {
+  border: 1px solid grey;
+  margin-right: 0.5rem;
+}
+.fs-icon {
+  color: #a5a2a2;
+}
+
+.cta_btn {
+  display: flex;
+  padding: 0.2rem 0.8rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #f05a70;
+  font-size: 0.8rem;
+  color: #ebebeb;
+  border: none;
+  border-radius: 2px;
+}
+
+hr {
+  border: 0.4px solid rgb(175, 175, 175);
+}
+
+.buttons_contianer {
+  background-color: rgb(187, 94, 94);
+  height: 200px;
+}
+.buttons_contianer mat-form-field {
+  margin-right: 1.6rem;
+  background-color: #dcdcdc;
+  width: 8rem;
+  height: 2rem;
+}
+.mat-form-field-appearance-fill {
+  .mat-form-field-underline {
+    display: none;
+  }
+}

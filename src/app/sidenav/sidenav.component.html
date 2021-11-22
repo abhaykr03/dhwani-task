@@ -1,0 +1,23 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened class="sideNavbar">
+    <a routerLink="card" (click)="navigate('home')">
+      <span><mat-icon>grid_view</mat-icon>Dashboard</span>
+    </a>
+    <a routerLink="travel-expense" (click)="navigate('travel-expense')">
+      <span><mat-icon>add</mat-icon>Add Travel Claim</span>
+    </a>
+    <a href="">
+      <span><mat-icon>add</mat-icon>Add Other Expense</span>
+    </a>
+    <a href="">
+      <span><mat-icon>add</mat-icon> Add Local Conveyance</span>
+    </a>
+    <a href="">
+      <span><mat-icon>sync</mat-icon> Sync</span>
+    </a>
+  </mat-drawer>
+
+  <mat-drawer-content class="content-area">
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

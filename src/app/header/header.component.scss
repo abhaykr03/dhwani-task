@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f05a70;
+  height: 62px;
+}
+
+.logo {
+  display: flex;
+  color: #fff;
+  padding-top: 1.8rem;
+  padding-left: 3.2rem;
+  font-family: Segoe UI;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.nav-icons {
+  margin-right: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-icons button {
+  margin: 0 0.4rem;
+  border: 50%;
+  background-color: #ebf2f7;
+}
+
+mat-icon {
+  color: #f05a70;
+}
+
+.nav ul li {
+  list-style: none;
+}

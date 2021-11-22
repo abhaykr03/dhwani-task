@@ -1,0 +1,35 @@
+.example-container {
+  width: auto;
+  height: calc(100vh - 60px);
+  background-color: #fff;
+}
+
+.content-area {
+  width: 80%;
+  // background-color: rgb(134, 111, 111);
+}
+
+// Side nav inner contents styling
+.sideNavbar {
+  padding-top: 5rem;
+  padding-left: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #f05a70;
+}
+
+.sideNavbar a {
+  text-decoration: none;
+}
+
+.sideNavbar span {
+  padding: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  color: #ebebeb;
+}
+
+.sideNavbar span mat-icon {
+  margin-right: 0.2rem;
+}

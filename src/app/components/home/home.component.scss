@@ -1,0 +1,65 @@
+.upper-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-container {
+  border: 1px solid #f05a70;
+  width: 30%;
+  margin-top: 2.4rem;
+  border-bottom: 1.4rem solid #3e3c44;
+  border-radius: 5px;
+}
+.title-contents {
+  font-size: 0.9rem;
+  padding: 0.6rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: #f05a70;
+}
+hr {
+  margin: 0;
+  border: 0.5px solid #f05a70;
+}
+.first-box {
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+}
+.first-box p {
+  font-size: 1rem;
+  color: #f05a70;
+}
+
+.three-circles_container {
+  margin-top: 0.5rem;
+  padding: 0.6rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.date-picker_container {
+  margin-top: 1rem;
+  width: 45%;
+}
+.title-cont span {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333333;
+}
+
+.calendar-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.demo-inline-calendar-card {
+  width: 60%;
+  margin-top: 1rem;
+}
